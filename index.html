@@ -119,6 +119,15 @@
                             </div>
                         </div>
                     </div>
+                    <div class="group p-8 bg-neutral-900/40 rounded-3xl border border-neutral-800 glitch-card transition-all duration-500">
+                        <div class="flex items-center gap-6">
+                            <div class="h-16 w-16 bg-red-600/10 rounded-2xl flex items-center justify-center shrink-0"><img src="gdutp.png" alt="GDUTP" class="w-10 h-10 opacity-90 group-hover:scale-110 transition-transform"></div>
+                            <div>
+                                <h4 data-i18n="p_card3_t" class="text-white font-black uppercase tracking-tighter text-2xl italic relative">Miembro de GDUTP</h4>
+                                <p data-i18n="p_card3_d" class="text-gray-400 text-sm mt-1">Organización de la UTP para incentivar la creatividad y colaboración entre desarrolladores peruanos.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -136,7 +145,6 @@
             
             <div id="content-sw" class="hidden absolute inset-0 w-full h-full flex flex-col md:flex-row p-6 md:p-10 pt-20 md:pt-24 overflow-y-auto bg-black z-50">
                 <button data-i18n="back" onclick="event.stopPropagation(); regresar()" class="back-btn absolute top-6 left-6 md:top-10 md:left-10 text-red-600 font-bold uppercase tracking-widest z-50 text-sm">✕ Regresar</button>
-                
                 <div class="w-full md:w-1/3 flex flex-row md:flex-col gap-4 pr-0 md:pr-10 border-b md:border-b-0 md:border-r border-red-900/20 overflow-x-auto md:overflow-visible pb-4 md:pb-0 mb-6 md:mb-0 shrink-0">
                     <div id="btn-checkdent" onclick="event.stopPropagation(); showProject('checkdent')" class="project-item p-3 md:p-4 min-w-[120px] md:min-w-0 bg-red-600/10 border border-red-600 cursor-pointer uppercase font-black italic transition-all text-xs md:text-base text-center md:text-left">Checkdent</div>
                     <div id="btn-vacunafeliz" onclick="event.stopPropagation(); showProject('vacunafeliz')" class="project-item p-3 md:p-4 min-w-[120px] md:min-w-0 bg-neutral-900 border border-neutral-800 hover:border-red-600 cursor-pointer uppercase font-black italic transition-all text-xs md:text-base text-center md:text-left">VacunaFeliz</div>
@@ -250,6 +258,8 @@
                 p_card1_d: "Estructura, algoritmos y soluciones escalables desarrolladas con rigor técnico.",
                 p_card2_t: "Game Development",
                 p_card2_d: "Creación de mecánicas y sistemas inspirados en la profundidad de los RPGs japoneses.",
+                p_card3_t: "Miembro de GDUTP",
+                p_card3_d: "Organización de la UTP para incentivar la creatividad y colaboración entre desarrolladores peruanos.",
                 pill_sw: "Soluciones de<br>Software",
                 pill_game: "Desarrollo de<br>Videojuegos",
                 back: "✕ Regresar",
@@ -280,6 +290,8 @@
                 p_card1_d: "Structure, algorithms, and scalable solutions developed with technical rigor.",
                 p_card2_t: "Game Development",
                 p_card2_d: "Creation of mechanics and systems inspired by the depth of Japanese RPGs.",
+                p_card3_t: "GDUTP Member",
+                p_card3_d: "UTP student organization promoting creativity and collaboration among Peruvian game developers.",
                 pill_sw: "Software<br>Solutions",
                 pill_game: "Game<br>Development",
                 back: "✕ Return",
@@ -337,8 +349,8 @@
         const gamesData = [
             {
                 title: "After the Tremor",
-                desc_es: "Storyquest narrativo ambiental en Godot Engine. Un viaje emocional que explora la narrativa post-desastre donde cada sistema lógico afecta la inmersión.",
-                desc_en: "Atmospheric narrative storyquest in Godot Engine. An emotional journey exploring post-disaster storytelling where every logical system affects immersion.",
+                desc_es: "Storyquest narrativo ambiental desarrollado en el programa Gamelab 5.0 de la UTP, junto con Endless Access, en Godot Engine. Un viaje emocional que explora la narrativa post-desastre donde cada sistema lógico afecta la inmersión.",
+                desc_en: "Atmospheric narrative storyquest developed in the UTP Gamelab 5.0 program, together with Endless Access, in Godot Engine. An emotional journey exploring post-disaster storytelling where every logical system affects immersion.",
                 video: "afterthetremortrailer.mp4",
                 poster: "afterthetremorminiatura.png",
                 supportImage: "afterthetremor1.png",  
